@@ -10,3 +10,103 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#root{
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  width: 330px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #bb1333;
+  border-radius: 4%;
+  margin-top: 110px;
+
+}
+
+.logo{
+  width: 100px;
+  margin: 20px 210px 10px 60px;
+
+}
+
+.display--container{
+  display: flex;
+  justify-content: flex-end;
+  width: 250px;
+  height: 60px;
+  color:white;
+  background-color:#323335;;
+  /*border: 1px solid black;*/
+  border-radius: 50px;
+  margin-bottom: 21px;
+}
+
+.display--container p{
+  margin-top: 12px;
+  font-size: 1.9rem;
+  margin-right: 19px
+  
+
+}
+
+.calcContainer{
+  display: flex;
+  flex-direction: row;
+  background-color:#bb1333;
+  /*border: 1px solid black;*/
+  width: 250px;
+  height: 303px;
+  margin-left: 14px;
+}
+
+.left{
+  
+  display: flex;
+  flex-direction: column;
+
+}
+
+
+button{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 6px 6px;
+}
+
+.numberButton{
+  font-size: 1.3rem;
+  color: white;
+  background-color: #0c3c78;
+  border:1px solid #0c3c78;
+  box-shadow: 0px 3px 3px #323335;
+}
+
+.numberButton:nth-child(10){
+  width: 103px;
+  height: 37;
+  border-radius: 28px;
+}
+
+.operatorButton{
+  font-size: 1.3rem;
+  color:white;
+  background-color: #247293;
+  
+  box-shadow: 0px 3px 3px #323335;
+}
+
+.specialButton{
+  font-size: 1.3rem;
+  color:white;
+  background-color:#225d9e;
+  border:1px solid #225d9e;
+  box-shadow: 0px 3px 3px #323335;
+
+}
+
